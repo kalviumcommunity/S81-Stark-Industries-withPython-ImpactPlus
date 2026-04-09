@@ -8,51 +8,58 @@ Non-Governmental Organizations (NGOs) run large-scale welfare programs aimed at 
 
 ## 📋 What You Are Expected to Do
 
-This milestone focuses on **project organization** for Data Science projects. You will not perform any data analysis or coding in this milestone. Instead, you will learn how to structure your projects in a clean and professional way.
+This milestone focuses on **data organization** for the NGO resource allocation project. You will organize program data (cost, participation, outcomes) without performing analysis or modeling.
 
 ### Overall Expectations
 
-- Understand common folder structures used in Data Science
-- Create a well-organized project directory
-- Separate different types of files properly
-- Prepare your project for easy collaboration
+- Understand how to handle raw NGO program data
+- Organize processed datasets separately
+- Manage output artifacts like reports and visualizations
+- Prevent data contamination by keeping data types separate
 
-### 1. Understanding Standard Project Folders
+### 1. Understanding Raw Data
 
-Learn about the typical folders found in Data Science projects:
+Learn how NGO program data should be treated as raw data:
 
-- **src/** or **code/**: Contains scripts and notebooks
-- **data/**: Holds raw and processed data files
-- **outputs/** or **results/**: Stores analysis results and visualizations
-- **docs/**: Includes documentation and reports
-- **notebooks/**: For exploratory analysis notebooks
+- Preserve original program data (cost, beneficiaries, outcomes) without any changes
+- Store raw data in a dedicated folder to maintain its integrity
+- Recognize raw data as the foundation for all analysis
+- Avoid modifying or cleaning raw data directly
 
-### 2. Creating the Folder Structure
+### 2. Organizing Processed Data
 
-Set up a clean root directory for your project:
+Set up storage for cleaned or transformed NGO datasets:
 
-- Create a main project folder with a clear name
-- Add subfolders for different purposes
-- Use consistent naming conventions
-- Keep the structure simple and logical
+- Create separate folders for processed data
+- Label processed files clearly (e.g., "cleaned_participation_data.csv")
+- Keep processed data distinct from raw data
+- Document any transformations applied to the data
 
-### 3. Separating Code, Data, and Outputs
+### 3. Managing Output Artifacts
 
-Organize files by their type and purpose:
+Handle results and insights from the project properly:
 
-- Place all code files (scripts, notebooks) in dedicated folders
-- Store data files separately from code
-- Keep outputs and results in their own folders
-- Avoid mixing raw data with processed data
+- Store reports, visualizations, and insights in output folders
+- Separate outputs from data and code files
+- Use clear naming for output files (e.g., "impact_analysis_report.pdf")
+- Keep outputs organized for easy sharing and review
 
-### 4. Preparing Projects for Collaboration
+### 4. Preventing Data Contamination
 
-Make your project easy for others to understand and use:
+Avoid errors by keeping different data types separate:
 
-- Add a README file explaining the project
-- Include clear folder descriptions
-- Use version control (like Git) for tracking changes
-- Follow naming standards that others can follow
+- Never mix raw data with processed or output data
+- Use version control to track changes without overwriting originals
+- Implement clear folder structures to prevent accidental mixing
+- Regularly check data integrity to ensure accuracy
+
+### Naming Conventions
+
+Use clear, meaningful names for all files:
+
+- Raw data: `raw_program_participation_2024.csv`
+- Processed data: `processed_cleaned_participation_data.csv`
+- Outputs: `impact_analysis_report.pdf`
 
 ---
 

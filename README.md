@@ -426,3 +426,57 @@ This would make the repository easier for new contributors to understand and ext
 ## ✅ Conclusion
 
 This repository demonstrates a structured approach to data analysis by following the data science lifecycle. While the overall workflow is clear, improving documentation and clarity would make it more accessible and easier to contribute to.
+
+---
+
+## 🧩 Milestone: Defining and Calling Python Functions
+
+This milestone focuses on writing clean, reusable Python code using functions.
+
+### Learning Objectives
+
+- Understand what functions are and why they improve code quality
+- Define functions correctly using `def`
+- Call functions with required arguments
+- Use parameters to make logic reusable
+- Understand basic local vs global scope behavior
+
+### Milestone Script
+
+Use the script below for this milestone:
+
+- `code/functions_demo.py`
+
+It demonstrates:
+
+- Defining small, focused functions
+- Calling functions in a clear execution flow
+- Passing arguments to functions
+- Returning values from functions
+- Observing local vs global scope
+
+### Run the Milestone Script
+
+From the project root:
+
+```bash
+python3 code/functions_demo.py
+```
+
+### Video Walkthrough (~2 Minutes)
+
+Your video should show:
+
+- Opening `code/functions_demo.py`
+- Defining at least one function (`def ...`)
+- Calling functions from `main()`
+- Passing arguments and showing output
+- Explaining how execution enters a function and returns back
+- Demonstrating basic scope behavior
+
+### Tips
+
+- Keep functions short and focused on one job
+- Use descriptive function and parameter names
+- Avoid unnecessary global variables
+- Reuse logic instead of repeating code blocks

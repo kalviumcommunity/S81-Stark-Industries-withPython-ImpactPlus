@@ -480,3 +480,56 @@ Your video should show:
 - Use descriptive function and parameter names
 - Avoid unnecessary global variables
 - Reuse logic instead of repeating code blocks
+
+---
+
+## 🧩 Milestone: Passing Data Into Functions and Returning Results
+
+This milestone focuses on designing functions as clear input-output units.
+
+### Learning Objectives
+
+- Understand the difference between parameters and arguments
+- Pass data into functions correctly
+- Return results with `return` instead of only printing
+- Reuse returned values in further computation
+- Build predictable and reusable function behavior
+
+### Milestone Script
+
+Use the script below for this milestone:
+
+- `code/function_io_demo.py`
+
+It demonstrates:
+
+- Defining functions with meaningful parameters
+- Calling functions with different argument values
+- Returning computed results from functions
+- Storing returned values in variables
+- Passing returned values into other functions
+
+### Run the Milestone Script
+
+From the project root:
+
+```bash
+python3 code/function_io_demo.py
+```
+
+### Video Walkthrough (~2 Minutes)
+
+Your video should show:
+
+- A function definition with parameters
+- Passing arguments into the function during calls
+- Returning a value using `return`
+- Using returned results in later calculations
+- Printing results outside the function
+
+### Tips
+
+- Prefer `return` for reusable logic
+- Avoid hardcoding values inside functions
+- Keep each function focused on one responsibility
+- Ensure return paths are clear and predictable

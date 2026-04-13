@@ -67,6 +67,8 @@ Use clear, meaningful names for all files:
 
 This milestone focuses on creating and running your first standalone Python script for data analysis. While notebooks are great for exploration, scripts are essential for repeatable, shareable, and automation-friendly workflows.
 
+The sample script at `code/first_ngo_script.py` now includes explicit numeric and string data type examples, type conversion, and safe formatting.
+
 Learning how to move from notebooks to scripts is a key step toward writing real-world Data Science code.
 
 ### Learning Objectives
@@ -76,6 +78,7 @@ Learning how to move from notebooks to scripts is a key step toward writing real
 - Run a Python script from the command line or editor
 - Print outputs and observe results
 - Build confidence executing code outside notebooks
+- Learn how numeric and string data types behave in Python
 
 ### What You Will Achieve
 
